@@ -1,0 +1,90 @@
+html {
+	color: #3e2723;
+	font-family: Josefin Slab;
+}
+
+nav .brand-logo {
+	color: #3e2723;
+	padding: 0 2%;
+	font-family: 'Niconne';
+}
+
+h2 {
+	font-family: 'Niconne';
+}
+
+nav ul a {
+	color: #3e2723;
+	font-weight: 700;
+}
+
+nav ul a:hover {
+	background-color: #F2668F;
+}
+
+.parallax-container.hero{
+	height: 500px;
+}
+
+.parallax-container{
+	height: 300px;
+}
+
+.parallax img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+.hero img {
+	/*bottom: 100px;*/
+}
+
+.right-footer-column img {
+	height: 100px;
+}
+
+.page-footer a {
+	color: #3e2723;	
+}
+
+.page-footer .row {
+	margin: auto;
+	padding-bottom: 10px;
+}
+
+footer i:hover {
+	color: #F2668F;
+}
+
+div#container.ltr {
+	padding: 10px;
+}
+
+label.desc {
+	font-size: 1.1rem;
+	color: #3e2723;
+	font-weight: bold;
+}
+
+textarea#Field5 {
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+#w-form {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border:1px solid #ccc;
+	-webkit- box-shadow:rgba(0,0,0,0.2) 0px 0px 5px;
+	-moz-box-shadow:rgba(0,0,0,0.2) 0px 0px 5px;
+	-o-box-shadow:rgba(0,0,0,0.2) 0px 0px 5px;
+	box-shadow:rgba(0,0,0,0.2) 0px 0px 5px
+}
+
+form.wufoo{
+	margin: 20px 14px 0 14px;
+	padding:0 0 20px 0;
+	position:relative
+}
+
