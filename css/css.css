@@ -3,13 +3,17 @@ html {
 	font-family: Josefin Slab;
 }
 
+body {
+	background-image: url("../assets/arrows.png");
+}
+
 nav .brand-logo {
 	color: #3e2723;
 	padding: 0 2%;
 	font-family: 'Niconne';
 }
 
-h2 {
+h1, h2, h3 {
 	font-family: 'Niconne';
 }
 
@@ -75,7 +79,8 @@ textarea#Field5 {
 #w-form {
 	margin-top: 20px;
 	margin-bottom: 20px;
-	border:1px solid #ccc;
+	border: 10px solid #F24478;
+	/*border:1px solid #ccc;*/
 	-webkit- box-shadow:rgba(0,0,0,0.2) 0px 0px 5px;
 	-moz-box-shadow:rgba(0,0,0,0.2) 0px 0px 5px;
 	-o-box-shadow:rgba(0,0,0,0.2) 0px 0px 5px;
@@ -88,3 +93,31 @@ form.wufoo{
 	position:relative
 }
 
+.inner {
+	border: 10px solid #F24478;
+	padding: 5px 5px 15px 5px;
+}
+
+.service {
+	border: 10px solid white;
+	margin-top: 4px;
+}
+
+.row .col {
+	padding: 0;
+}
+
+.btn-large {
+	background-color: #9ccc65;
+	color: #3e2723;
+}
+
+.btn-large:hover {
+	background-color: #F24478;
+	color: white;
+}
+
+p.center.flow-text {
+	display: inline-block;
+	background-color: white;
+}
