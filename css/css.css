@@ -121,3 +121,7 @@ p.center.flow-text {
 	display: inline-block;
 	background-color: white;
 }
+
+div.ww-reset {
+	max-width: none;
+}
