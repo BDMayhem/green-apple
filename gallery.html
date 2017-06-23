@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,12 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="css/css.css">
 	<link rel="icon" href="assets/favicon.ico">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-	<!-- Wufoo form stuff -->
-	<script src="js/wufoo.js"></script>
-	<!--[if lt IE 10]>
-	<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 
 </head>
 
@@ -46,88 +39,36 @@
 		</nav>
 	</header>
 
-		<main>
+	<main>
+		<div id="fotorama"
+		class="fotorama container"
+		data-loop="true"
+		data-keyboard="true"
+		data-arrows="true"
+     	data-swipe="true"
+     	data-nav="thumbs"
+     	data-allowfullscreen="true"
+     	data-height="80%"
+     	data-width="100%"
+     	data-thumbheight="100px"
+     	data-thumbwidth="100px"
+     	data-autoplay="true"
+     	>
+            <img src="http://lorempixel.com/500/400">
+            <img src="http://lorempixel.com/402/800">
+            <img src="http://lorempixel.com/803/400">
+            <img src="http://lorempixel.com/501/400">
+            <img src="http://lorempixel.com/403/800">
+            <img src="http://lorempixel.com/803/404">
+            <img src="http://lorempixel.com/500/405">
+            <img src="http://lorempixel.com/402/806">
+            <img src="http://lorempixel.com/803/407">
+            <img src="http://lorempixel.com/500/408">
+            <img src="http://lorempixel.com/402/809">
+            <img src="http://lorempixel.com/803/411">
+        </div>
 
-			<div class="container row amber lighten-4" id="w-form" class="ltr">
-
-				<form id="form5" name="form5" class="wufoo topLabel page" accept-charset="UTF-8" enctype="multipart/form-data" method="post" novalidate action="https://notabooth.wufoo.com/forms/sxrqrjy1m9dol3/#public">
-	  
-					<header id="header" class="info">
-						<h2>Contact Green Apple Weddings & Events</h2>
-						<div></div>
-					</header>
-
-					<ul>
-						<li id="foli24" class="notranslate">
-							<div>
-							<label class="desc" id="title24" for="Field24">
-								Name
-								<span id="req_24" class="req">*</span>
-							</label>
-							<input id="Field24" name="Field24" type="text" class="field text medium" value="" maxlength="255" tabindex="1" onkeyup="" required placeholder="" />
-							</div>
-						</li>
-						<li id="foli3" class="notranslate">
-							<div>
-							<label class="desc" id="title3" for="Field3">
-								Email
-								<span id="req_3" class="req">*</span>
-							</label>
-								<input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium validate" value="" maxlength="255" tabindex="2" placeholder="" required />
-							</div>
-						</li>
-						<li id="foli29" class="notranslate">
-							<label class="desc " id="title29" for="Field29">
-								Date of Event
-							</label>
-							<div>
-								<input id="Field29" name="Field29" type="date" class="datepicker" value="" tabindex="3" onkeyup="" placeholder="" />
-							</div>
-						</li>
-						<li id="foli8" class="notranslate">
-							<label class="desc" id="title8" for="Field8">
-								Event Location
-							</label>
-							<div>
-								<input id="Field8" name="Field8" type="text" class="field text medium" value="" maxlength="255" tabindex="6" onkeyup="" placeholder="" />
-							</div>
-						</li>
-						<li id="foli5"
-						class="notranslate      ">
-							<label class="desc" id="title5" for="Field5">
-								Body
-								<span id="req_5" class="req">*</span>
-							</label>
-							<div>
-								<textarea id="Field5" name="Field5" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="7" onkeyup=""	placeholder="" required ></textarea>
-							</div>
-						</li>
-						<li id="foli12" class="notranslate">
-							<label class="desc" id="title12" for="Field12">
-								How Did You Hear of Green Apple?
-							</label>
-							<div>
-								<input id="Field12" name="Field12" type="text" class="field text medium" value="" maxlength="255" tabindex="8" onkeyup="" placeholder=""/>
-							</div>
-						</li> 
-						<li class="buttons ">
-							<div>
-								<input id="saveForm" name="saveForm" class="btTxt submit btn-large" type="submit" value="Submit" tabindex="9" />
-							</div>
-						</li>
-
-						<li class="hide">
-							<label for="comment">Do Not Fill This Out</label>
-							<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-							<input type="hidden" id="idstamp" name="idstamp" value="OSPhy9waows2Pu4A9PjINjVKh5KMXJ2pL4xQ6GktMNw=" />
-						</li>
-					</ul>
-				</form>
-			</div>
-
-
-
-		</main>
+	</main>
 
 	<footer class="page-footer light-green lighten-1">
 		<div class="row">
@@ -153,6 +94,8 @@
 
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/materialize.js"></script>
+	<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 
 </body>
 </html>

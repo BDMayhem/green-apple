@@ -45,7 +45,7 @@ nav ul a:hover {
 }
 
 .right-footer-column img {
-	height: 100px;
+	height: 90px;
 }
 
 .page-footer a {
@@ -96,6 +96,8 @@ form.wufoo{
 .inner {
 	border: 10px solid #F24478;
 	padding: 5px 5px 15px 5px;
+	display: flex;
+	flex-direction: column;
 }
 
 .service {
@@ -110,6 +112,8 @@ form.wufoo{
 .btn-large {
 	background-color: #9ccc65;
 	color: #3e2723;
+	margin-top: auto;
+	align-self: center;
 }
 
 .btn-large:hover {
@@ -124,4 +128,144 @@ p.center.flow-text {
 
 div.ww-reset {
 	max-width: none;
+}
+
+.flow-text-small {
+}
+
+@media only screen and (min-width: 360px) {
+  .flow-text-small {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 390px) {
+  .flow-text-small {
+    font-size: 1.024rem;
+  }
+}
+
+@media only screen and (min-width: 420px) {
+  .flow-text-small {
+    font-size: 1.048rem;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  .flow-text-small {
+    font-size: 1.072rem;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .flow-text-small {
+    font-size: 1.096rem;
+  }
+}
+
+@media only screen and (min-width: 510px) {
+  .flow-text-small {
+    font-size: 1.12rem;
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  .flow-text-small {
+    font-size: 1.144rem;
+  }
+}
+
+@media only screen and (min-width: 570px) {
+  .flow-text-small {
+    font-size: 1.168rem;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .flow-text-small {
+    font-size: 1.192rem;
+  }
+}
+
+@media only screen and (min-width: 630px) {
+  .flow-text-small {
+    font-size: 1.216rem;
+  }
+}
+
+@media only screen and (min-width: 660px) {
+  .flow-text-small {
+    font-size: 1.24rem;
+  }
+}
+
+@media only screen and (min-width: 690px) {
+  .flow-text-small {
+    font-size: 1.264rem;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .flow-text-small {
+    font-size: 1.288rem;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .flow-text-small {
+    font-size: 1.312rem;
+  }
+}
+
+@media only screen and (min-width: 780px) {
+  .flow-text-small {
+    font-size: 1.336rem;
+  }
+}
+
+@media only screen and (min-width: 810px) {
+  .flow-text-small {
+    font-size: 1.36rem;
+  }
+}
+
+@media only screen and (min-width: 840px) {
+  .flow-text-small {
+    font-size: 1.384rem;
+  }
+}
+
+@media only screen and (min-width: 870px) {
+  .flow-text-small {
+    font-size: 1.408rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .flow-text-small {
+    font-size: 1.432rem;
+  }
+}
+
+@media only screen and (min-width: 930px) {
+  .flow-text-small {
+    font-size: 1.456rem;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .flow-text-small {
+    font-size: 1.48rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .flow-text-small {
+    font-size: 1.2rem;
+  }
+}
+
+.fotorama__wrap {
+	margin: 3px auto;
+	background-color: rgba(50,50,50,0.9);
 }
