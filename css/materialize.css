@@ -4231,6 +4231,9 @@ nav .nav-wrapper {
   nav a.button-collapse {
     display: none;
   }
+  nav .brand-logo {
+    white-space: nowrap;
+  }
 }
 
 nav .button-collapse {
@@ -4252,7 +4255,7 @@ nav .brand-logo {
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
-  /*white-space: nowrap;*/
+  /* white-space: nowrap; */
 }
 
 nav .brand-logo.center {
