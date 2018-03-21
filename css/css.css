@@ -76,11 +76,12 @@ textarea#Field5 {
 	margin-bottom: 10px;
 }
 
-#w-form {
+.w-form {
 	margin-top: 20px;
-	margin-bottom: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 1.7em;
 	border: 10px solid #F24478;
-	/*border:1px solid #ccc;*/
 	-webkit- box-shadow:rgba(0,0,0,0.2) 0px 0px 5px;
 	-moz-box-shadow:rgba(0,0,0,0.2) 0px 0px 5px;
 	-o-box-shadow:rgba(0,0,0,0.2) 0px 0px 5px;
@@ -128,9 +129,6 @@ p.center.flow-text {
 
 div.ww-reset {
 	max-width: none;
-}
-
-.flow-text-small {
 }
 
 @media only screen and (min-width: 360px) {
