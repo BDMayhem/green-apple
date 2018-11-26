@@ -26,6 +26,10 @@ nav ul a:hover {
 	background-color: #F2668F;
 }
 
+.contact {
+  font-size: 1.1rem;
+}
+
 .parallax-container.hero{
 	height: 500px;
 }
