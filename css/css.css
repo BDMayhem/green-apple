@@ -37,7 +37,13 @@ nav ul a:hover {
 .parallax img {
 	width: 100%;
 	height: auto;
-	object-fit: contain;
+  object-fit: contain;
+}
+
+@media only screen and (min-width: 992px) {
+  #first-image {
+    bottom: 25%;
+  }
 }
 
 .right-footer-column img {
